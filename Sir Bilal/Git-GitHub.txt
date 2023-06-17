@@ -4,12 +4,15 @@ git config --global user.email "username"
 
 // for new project
 git init (It will Initialize Git, 1 time only in single project)
-git add. یا git add filename
+git add . یا git add filename
 git commit -m "message"
 git remote add origin https://github.com/waqarfarooq444/Assignment-1.git 
 git push -u origin main
 
 
-//  to retreive files online
+//  to retreive files online command promt
 cd desktop
 git clone Repolink
+
+// To Update
+git pull origin master
